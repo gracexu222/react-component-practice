@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <MyFirstComponent />;
+  return (
+    <div>
+      <MyFirstComponent />
+    </div>
+  );
 }
 
 function MyFirstComponent() {
